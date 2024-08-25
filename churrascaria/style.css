@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Matemasie&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.2s;
+    color: #ebebeb;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: maroon;
+    color: #ebebeb
+    ;
+}
+
+/* header */
+
+header {
+    background-color: maroon;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+}
+
+.logo-img {
+    display: flex;
+    flex-basis: 100px;
+}
+
+.logo-img img {
+    width: 100%;
+}
+
+.logo-title {
+    font-family: Matemasie;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: navy;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    font-style: none;
+    justify-content: center;
+    padding: 8px;
+}
+
+.nav-list a:hover {
+    color: #000000;
+    background-color: #ebebeb;
+    transform: scale(1.1);
+}
+
+.nav-list a li {
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* main */
+
+.screen {
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 64px;
+    
+}
+
+.principal {
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;
+    overflow-wrap: anywhere;
+    padding: 8px;
+    text-align: center;
+    background-color: navy;
+}
+
+.principal-h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.principal-h1 h1 {
+    border-left: 4px solid #ebebeb;
+    padding-left: 8px;
+}
+
+.principal-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 8px;
+}
+
+.title-principal {
+    display: flex;
+    flex-flow: row wrap;
+    font-family: Kanit;
+    font-size: 20px;
+    justify-content: center;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.figures-card {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+}
+
+.cards {
+    display: flex;
+    border: 2px solid #000000;
+    flex-flow: row;
+    justify-content: center;
+    padding: 4px;
+    background-color: rgba(21, 21, 99, 0.507);
+    gap: 16px;
+    flex: 1 1 400px;
+    transition: box-shadow 0.5s;
+    box-shadow: 1px  1px 4px #000000;
+}
+
+.cards:hover {
+    box-shadow: 1px 1px 4px #ebebeb;
+}
+
+.card-subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 200px;
+}
+
+.promo {
+    text-transform: uppercase;
+    font-family: Kanit;
+    font-style: italic;
+    color: navajowhite;
+    font-size: 20px;
+} 
+
+.title-hs {
+    font-family: Kanit;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.card-p {
+    display: flex;
+    flex-flow: column;
+    gap: 4px;
+}
+
+.fig {
+    display: flex;
+}
+
+.fig img {
+    border-left: 32px solid gray;
+    border-radius: 10px;
+}
+
+.principal-img img {
+    width: 100%;
+}
+
+.aside-right {
+    width: 800px;
+    flex: 1 1 630px;
+    border: 2px solid #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    overflow-wrap: anywhere;
+    padding: 8px;
+    gap: 16px;
+    background-color: navy;
+}
+
+.aside-right-h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.aside-right-h2 h2 {
+    border-left: 4px solid #ebebeb;
+    border-right: 4px solid #ebebeb;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.aside-right-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-right-img img {
+    width: 100%;
+}
+
+/* footer */
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.p-padrao {
+    font-family: Kanit;
+    font-size: 24px;
+}
